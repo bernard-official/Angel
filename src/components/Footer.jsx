@@ -13,7 +13,7 @@ function Footer() {
             border: 1,
             color: 'GrayText',
             backgroundColor: 'black', 
-            height: 300 }}>
+             }}>
                 <Card sx={{
                     color: 'GrayText',
                     backgroundColor: 'black',
@@ -38,14 +38,6 @@ function Footer() {
                     </MenuList> 
                 </Card>
                 
-                <Card sx={{
-                    color: 'GrayText',
-                    backgroundColor: 'black',
-                }}><h3>About ANGELASH</h3>
-                    <li>News</li> <li>Careers</li> <li>Investors</li> <li>Purpose</li>
-                    <li> Sustainability</li>
-                </Card>
-
                 <Card sx={{
                     color: 'GrayText',
                     backgroundColor: 'black',

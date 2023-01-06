@@ -14,14 +14,11 @@ export default function SideBar() {
         flexDirection: {md:'column'},
 
       }}>
-        Latest
-        Gender
-        Kids
         <ButtonGroup
          orientation="vertical"
          aria-label="vertical contained button group"
          variant="text"
-        >
+        > 
             <button key= 'one'>Gender </button>
             <button key= 'two'> Kids</button>
             <button key= 'three'>Shop by Price </button>

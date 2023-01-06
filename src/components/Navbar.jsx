@@ -19,19 +19,18 @@ function Navbar() {
       p={2}
       sx={{position: 'sticky', top: 0, justifyContent:'space-between'}}
       >
-        <div clasName='logo-container'>
-          <Avatar 
+        <div clasName='logo-container' >
+        <Link to='/'><Avatar 
           icon='true' src={icon} alt='logo' size= "large"        />
-          <Typography variant='h1' sx={{align:'left'}}>
-            <Link to='/'>Angel Ash</Link>
-          </Typography>
+          <Typography variant='h5' sx={{align:'left'}}>
+            Angel Ash
+          </Typography></Link>
         </div>
 
-        
-         <NewOutfits />  
-         <Men />
-         <Women />
-         <Kids />
+        <Link to='/new'> <NewOutfits /></Link>
+        <Link to='/men'><Men /></Link>
+        <Link to='women'> <Women /></Link>
+        <Link to='kids'><Kids /></Link> 
         <SearchBar />
 
       </Stack>

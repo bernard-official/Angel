@@ -6,7 +6,11 @@ export default function NewOutfits () {
   return (
     <div>
         <Grid>
-            <SideBar />
+            NEW COLLECTIONS
+            <Stack sx={{flexDirection: { sx: 'column', md:'row'}}}
+            >
+              <SideBar />
+            </Stack>
         </Grid>
       
     </div>
