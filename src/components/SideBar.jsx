@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonGroup, Stack } from '@mui/material'
+import { inventories } from '../Utils/categories'
 
 
 
@@ -19,9 +20,7 @@ export default function SideBar() {
          aria-label="vertical contained button group"
          variant="text"
         > 
-            <button key= 'one'>Gender </button>
-            <button key= 'two'> Kids</button>
-            <button key= 'three'>Shop by Price </button>
+           { inventories.map((inventory) => inventory.name) }
         </ButtonGroup>
       </Stack>
     </div>

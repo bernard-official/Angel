@@ -42,3 +42,15 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+ width: 100%;
+ height: 80vh;
+ background-color: aquamarine; 
+}
+.nav-container{
+  background-color: white;
+}
+.logo-container{
+  display: flex;
+}

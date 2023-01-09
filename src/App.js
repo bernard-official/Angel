@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, Route, Routes } from 'react-router-dom';
+import './App.css'
 
+import header from './images/header.jpg'
 import Navbar from './components/Navbar';
 import Men from './components/Men';
 import Home from './components/Home';
