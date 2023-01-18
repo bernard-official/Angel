@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Stack,Avatar, Typography, Grid } from '@mui/material';
+import { Stack, Grid } from '@mui/material';
 import icon from '../images/Angel.png';
 
 import NewOutfits from './NewOutfits';
@@ -8,6 +8,7 @@ import Men from './Men';
 import Women from './Women';
 import Kids from './Kids';
 import SearchBar from './SearchBar';
+import Shopcart from './Shopcart';
 
 
 function Navbar() {
@@ -19,25 +20,20 @@ function Navbar() {
       p={2}
       sx={{position: 'sticky', top: 0, justifyContent:'space-between'}}
       >
-        <div clasName='logo-container' >
+        <div className='logo-container' >
           <Link to='/'>
-            <Avatar 
-            icon='true' src={icon} alt='logo' size= "large"  
-            sx={{ width: 56, height: 56}}      />
-            <Typography variant='h5' sx={{align:'left'}}>
-              Angel Ash
-            </Typography>
+            <img 
+            icon='true' src={icon} alt='logo' width= '120h' height='80vh' />
           </Link>
         </div>
-        <div>
-          <Link to='/new'> <NewOutfits /></Link>
-          <Link to='/men'><Men /></Link>
-          <Link to='women'> <Women /></Link>
-          <Link to='kids'><Kids /></Link>
-        </div>
-        <div>
+          <Link to='/new'><span>New Collections</span></Link>
+          <Link to='/men'><span>Men</span> </Link>
+          <Link to='/women'><span>Women</span> </Link>
+          <Link to='/kids'><span>Kids</span></Link>
+        
           <SearchBar />
-        </div>
+          <Shopcart />
+         
 
       </Stack>
     </div>

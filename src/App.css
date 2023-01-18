@@ -1,9 +1,3 @@
-.logo-container{
-  display: 'flex';
-  padding: 20px;
-    align-items: center;
-    width: 100%;
-}
 .App {
   text-align: center;
 }
@@ -50,7 +44,17 @@
 }
 .nav-container{
   background-color: white;
+  
 }
 .logo-container{
+  width: 140px
+}
+.searchShop-container{
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.collection-container{
+  display: flex;
+  flex-direction: column;
 }

@@ -9,6 +9,7 @@ function Footer() {
         <Box>
             <Stack
             direction={'row'}
+            alignItems='center'
             sx={{ overflow:'auto', 
             border: 1,
             color: 'GrayText',
