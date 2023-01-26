@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonGroup, Stack } from '@mui/material'
+import { Table, TableRow, Stack } from '@mui/material'
 import { inventories } from '../Utils/categories'
 
 
@@ -16,13 +16,17 @@ export default function SideBar( {showInventories,setShowInventories} ) {
 
       }}>
            { inventories.map((inventory) =>(
-            <button
+            <Table>
+              <TableRow>
+              <button
             className='inventory'
             /**line below is suppose show name of inventory */
             onClick={()=>setShowInventories(inventory.products)}
             >
               { inventory.name }
             </button>
+              </TableRow>
+            </Table>
            ) ) }
       </Stack>
     </div>

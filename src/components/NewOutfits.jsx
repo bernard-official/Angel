@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
 import SideBar from './SideBar'
-import { Grid, Stack, Card, Typography  } from '@mui/material'
-import { inventories } from '../Utils/categories'
-import { useNavigate } from 'react-router-dom'
+import { Card, Typography, CardContent, Box, Grid  } from '@mui/material'
+import Navbar from './Navbar'
+import storeItems from '../Utils/data.json'
 
 export default function NewOutfits () {
-  let navigate = useNavigate();
-   
-  const [showInventories, setShowInventories]= useState(false);
-  navigate('/new')
- 
+
   return (
+    <>
     <div className='collection-container'>
-            <Typography variant='h4' align='center'>New Collections</Typography> 
-            <SideBar width= '30%' />
-            <div className='cardCollection-container'>
-              <Card></Card>
-            </div>
+      <Navbar position="sticky" /> 
+      <Typography variant='h4' align='center'>New Collections</Typography> 
+      <div className='sideBar-card-container'>
+        { storeItems.map((item)=>(
+          <div className='grid-container'>
+              <Card 
+              sx={{ width:{  xs:'100%', sm:'358px', md:'500px'}, height:{xs:'40%',sm:'358px', md:'500px'}, boxShadow:'5'}}>
+               {JSON.stringify(item)}
+              </Card>
+          </div>
+        ))}
+      </div>
     </div>
+    </>
   )
 }
+ 

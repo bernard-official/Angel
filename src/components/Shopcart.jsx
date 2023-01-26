@@ -5,9 +5,11 @@ import { IconButton } from '@mui/material';
 export default function Shopcart() {
   return (
     <div>  
-        <IconButton>
+          <IconButton position='relative' 
+          sx={{ }} >
             <LocalGroceryStoreOutlinedIcon />
-        </IconButton>  
+            <div className='picked-item'>3</div>
+          </IconButton> 
     </div>
   )
 }
