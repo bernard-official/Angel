@@ -1,24 +1,25 @@
 [
+ 
         {
             "id": 1,
             "name":"shirt",
             "category":"Men",
             "price":10.99,
-            "imageUrl":"./img/shirt.jpg"
+            "imageUrl":"../img/shirt.jpg"
         },
         {
             "id": 2,
             "name":"Trousers",
             "category":"Men",
             "price":15.99,
-            "imageUrl":"./img/pants.jpg"
+            "imageUrl":"../img/pants.jpg"
         },
         {
             "id": 3,
             "name":"dress",
             "category":"Women",
             "price":29.99,
-            "imageUrl":"./img/dress.jpg"
+            "imageUrl":"../img/dress.jpg"
         },
         {
             "id": 4,
@@ -32,11 +33,11 @@
             "name":"skirt",
             "category":"Kids",
             "price":15.99,
-            "imageUrl":"./img/skirt kid.jpg"
+            "imageUrl":"../img/skirt kid.jpg"
         },
         {
             "id": 6,
             "name": "unisex"
         }
-    
-    ]
+
+]
