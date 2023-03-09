@@ -1,43 +1,20 @@
-[
- 
-        {
-            "id": 1,
-            "name":"shirt",
-            "category":"Men",
-            "price":10.99,
-            "imageUrl":"../img/shirt.jpg"
-        },
-        {
-            "id": 2,
-            "name":"Trousers",
-            "category":"Men",
-            "price":15.99,
-            "imageUrl":"../img/pants.jpg"
-        },
-        {
-            "id": 3,
-            "name":"dress",
-            "category":"Women",
-            "price":29.99,
-            "imageUrl":"../img/dress.jpg"
-        },
-        {
-            "id": 4,
-            "name":"skirt",
-            "category":"Women",
-            "price":39.99,
-            "imageUrl":"../img/women skirt.jpg"
-        },
-        {
-            "id": 5,
-            "name":"skirt",
-            "category":"Kids",
-            "price":15.99,
-            "imageUrl":"../img/skirt kid.jpg"
-        },
-        {
-            "id": 6,
-            "name": "unisex"
-        }
-
+[  
+    {   
+         "id": 1,    "name": "shirt",    "category": "Men",    "price": 10.99,    "imgUrl": "/img/shirt.jpg"  
+    },
+    {
+        "id": 2,    "name": "Trousers",    "category": "Men",    "price": 15.99,    "imgUrl": "/img/pants.jpg"
+    },
+    {
+        "id": 3,    "name": "dress",    "category": "Women",    "price": 29.99,    "imgUrl": "/img/dress.jpg"  
+    },  
+    {
+        "id": 4,    "name": "skirt",    "category": "Women",    "price": 39.99,    "imgUrl": "/img/women skirt.jpg"  
+    },  
+    {
+        "id": 5,    "name": "skirt",    "category": "Kids",    "price": 15.99,    "imgUrl": "/img/skirt kid.jpg"  
+    },  
+    {
+        "id": 6,    "name": "unisex",    "category": "",    "price": 0,    "imgUrl": ""  
+    }
 ]

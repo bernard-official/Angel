@@ -10,6 +10,7 @@ import Kids from './Kids';
 import SearchBar from './SearchBar';
 import Shopcart from './Shopcart';
 
+//bring the shopcart back here dont keet it as a separate component
 
 function Navbar() {
   return (

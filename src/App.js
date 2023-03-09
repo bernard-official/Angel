@@ -9,11 +9,12 @@ import Home from './components/Home';
 import Kids from './components/Kids';
 import Women from './components/Women';
 import NewOutfits from './components/NewOutfits';
+import { ShoppingCartProvider } from './components/ShoppingCartContext';
 
 export default function App() {
  return (
     <div>
-            
+      <ShoppingCartProvider>     
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/navbar' element={<Navbar />} />
@@ -22,6 +23,7 @@ export default function App() {
           <Route path='/women' element={<Women />} />
           <Route path='/kids' element={< Kids />} />
         </Routes>
+      </ShoppingCartProvider>
     </div>
   )
 }
